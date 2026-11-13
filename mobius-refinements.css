@@ -1,0 +1,19 @@
+/* A continuous visual language for academia, industry and ecosystem building. */
+.hero-v2 .flow-stage,.study-art{opacity:.62;pointer-events:none}
+.hero-v2 .flow-stage{top:-8%;height:112%;width:100%;right:-8%;z-index:0}
+.hero-v2 .profile-placeholder{top:50%;right:9%;width:230px;transform:translateY(-50%)}
+.study .profile-placeholder{top:48%;right:9%;width:190px;transform:translateY(-50%)}
+.mobius-story{position:absolute;z-index:2;right:5%;bottom:156px;width:410px;text-align:center;pointer-events:none}
+.mobius-story>p{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:#6a7285;margin-bottom:16px}
+.domain-legend{display:flex;justify-content:center;gap:27px;font-size:12px;color:#343b4b;letter-spacing:.3px}
+.domain-legend span{display:inline-flex;align-items:center;gap:8px}.domain-legend i{width:6px;height:6px;border-radius:50%;background:#8eb5d5}.domain-legend span:nth-child(2) i{background:#b4a5d1}.domain-legend span:nth-child(3) i{background:#d2a7c2}
+.mobius-story small{display:block;font-size:9px;line-height:1.7;color:#788092;margin-top:12px;letter-spacing:.3px}
+.study .mobius-story{bottom:88px;right:7%;width:430px}.study .mobius-story>p{font-size:8px;margin-bottom:12px}.study .domain-legend{font-size:11px}.study .mobius-story small{display:none}
+body[data-sample="contour"] .study .mobius-story,body[data-sample="current"] .study .mobius-story{display:none}
+.research{background:transparent;box-shadow:none;clip-path:none;--bg:var(--surface);--ink:var(--surface-ink);--muted:var(--surface-muted);--line:var(--surface-line);color:var(--surface-ink)}
+.research .pub-media{background:#f1f4fa;border-color:#dce1ec}.research .pub-links a{border-color:var(--surface-line)}
+@media(max-width:1100px) and (min-width:761px){.hero-v2 .profile-placeholder{width:190px;right:7%;top:52%}.mobius-story{right:4%;width:370px}.study .mobius-story{right:3%;width:360px}.study .profile-placeholder{width:160px;right:7%}}
+@media(max-width:760px){.hero-v2{min-height:1140px}.hero-v2 .flow-stage{top:auto;bottom:120px;height:620px;width:150%;right:-25%;opacity:.55}.hero-v2 .profile-placeholder{top:auto;bottom:305px;right:12%;width:160px;transform:none}.mobius-story{right:6%;bottom:169px;width:88%}.mobius-story>p{font-size:7px;letter-spacing:1.1px;margin-bottom:13px}.domain-legend{font-size:10px;gap:17px}.domain-legend span{gap:6px}.mobius-story small{font-size:8px;margin-top:9px}.study{height:850px}.study .study-art{top:auto;bottom:50px;height:530px;width:150%;right:-25%}.study .profile-placeholder{top:auto;right:12%;bottom:190px;width:140px;transform:none}.study .mobius-story{right:6%;bottom:90px;width:88%}.study .domain-legend{font-size:9px;gap:16px}.study .profile-placeholder strong{font-size:15px}.study .profile-placeholder small{font-size:5px}.study .profile-placeholder figcaption{font-size:5px}.study .profile-placeholder:before,.study .profile-placeholder:after{left:10px;right:10px}}
+
+@media(min-width:761px){.study .study-art{top:-8%;height:112%;width:100%;right:-8%}.study .mobius-story{bottom:78px}}
+@media(max-width:760px){.profile-placeholder small{display:none}.profile-placeholder{gap:10px}}
